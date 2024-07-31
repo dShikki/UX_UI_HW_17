@@ -1,0 +1,139 @@
+body {
+	background-color: #242424;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	justify-content: space-around;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: #242424;
+	border-radius: 30px;
+	transition: filter 0.3s ease;
+}
+
+.box:hover {
+	filter: drop-shadow(10px 10px 20px #ff4444);
+}
+
+.text_nav {
+	position: relative;
+	width: fit-content;
+	font-family: "Inter-Medium", Helvetica;
+	font-weight: 600;
+	color: #ff4444;
+	font-size: 26px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.text_nav:hover {
+	text-decoration: underline;
+}
+p {
+	font-family: "Inter-Medium", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+.main_screen {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main_screen_text {
+	font-family: "Inter-Medium", Helvetica;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: normal;
+	width: 40%;
+}
+.main_text {
+	font-size: 40px;
+}
+.skills_card {
+	margin-bottom: 24px;
+}
+.skills {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	place-items: center;
+}
+.skills_topic {
+	padding-left: 20px;
+	/* justify-content: center;
+	align-items: center; */
+	color: #ff4444;
+	font-weight: 700;
+}
+.skills_text {
+	display: grid;
+	grid-template-columns: 140px 140px;
+}
+.project_topic {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 34px;
+}
+.projects {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.project_card {
+	place-items: center;
+}
+.CBSA_img {
+	background-color: #ffffff;
+	padding: 60px;
+	border-radius: 6px;
+}
+.Epilepsy_img {
+	background-color: #ece4ff;
+	padding: 50px;
+	border-radius: 6px;
+}
+.Jewel_img {
+	background-color: #2b2b2b;
+	padding: 20px 45px 20px 45px;
+	border-radius: 6px;
+}
+
+.contacts {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 500px;
+	padding: 0px 0px 50px 80px;
+}
+.contacts_left2 {
+	display: flex;
+	padding-top: 60px;
+	gap: 25%;
+}
+.footer_example {
+	background-color: #ff4444;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer_text {
+	color: #242424;
+	font-weight: 700;
+}
